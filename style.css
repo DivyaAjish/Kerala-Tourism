@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* styles for header */
+header{
+   background-color:turquoise;
+ height: 7em;
+}
+img{
+    /* border:violet solid; */
+    margin-left: 10%;
+    margin-top: 15px;
+    width: 6%;
+}
+.headtag{ 
+    float:right;
+    margin-bottom: 30px;
+    margin-right: 20%;
+    color: black; 
+   
+    
+}
+.menubar{
+     /* background-color: violet; */
+    text-align: center;
+    display:inline-flex;
+    list-style:none;
+    
+
+}
+.menubar li{
+    padding: 6px;
+}
+.menubar li a{ 
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+     padding: 2px;
+    margin-right: 8px;
+    
+    
+}
+.headtag a:hover{
+    color:black;
+    
+}
+
+
+
+.content{
+ 
+    float: right;
+    color:turquoise;
+     position: absolute;
+  
+     /* border:1px solid black;   */
+    margin-top: 15px; 
+    margin-left: 67%;
+    padding: 20px;
+    text-align: justify;
+    
+}
+.content h2{
+    text-align: center;
+    text-transform:none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.content p{
+    text-align:justify;
+    
+}
+footer{
+    background-color:turquoise;
+    height: 25px;
+    margin-top: 40%;
+
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+}
+.login{
+    float: right;
+    margin-top: 20px;
+    margin-left: 50%;
+    margin-right: 10%;
+    /* border: 2px solid turquoise; */
+    color:teal;
+    height: 25em;
+    width: 15em;
+    padding: 10px;
+}
+.dist-cap1{
+    /* border: 2px solid yellow; */
+    margin-top: 20px;
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    padding: 20px;
+    margin-left: 10%;
+}
+.dist-cap2{
+    float:right;
+    margin-top: 20px;
+     margin-right:10%;
+     /* border: 2px solid red; */
+    /* height: 270px;  */
+     width: 30%; 
+    padding: 20px;
+}
+.dest-cont{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     height: 20%;
+    /* border: 2px solid red; */
+    font-size: 12px;
+    width: 30%;
+    color:teal;
+    margin-left: 10PX;
+    position: absolute;
+}
+.photo{
+    float: right;
+    border: 2px solid blue;
+    margin-left: 30%;
+    padding: 20px;
+     /* width: 55px; */
+     height: 50%;
+}
+.contactus{
+    /* border: 2px solid red; */
+    margin-left: 30%;
+    padding: 20px;
+    margin-top: 20px;
+    height: 50%;
+    width: 50%;
+}
+.con-name{
+    width: 50em;
+    height: 6em;
+}
+/* .con-msg{ */
+    /* width: 50%; */
+
+/* } */
+
